@@ -15,10 +15,14 @@ body {
 }
 
 .header {
-  margin-top: 65px;
-  padding: 6px;
-  border-bottom: 2px groove #1c6ea4;
+  margin-top: 5px;
+  padding: 60px;
+
   text-align: center;
+}
+
+.line {
+  border-top: 2px groove #1c6ea4;
 }
 
 .cuadro {
@@ -42,6 +46,10 @@ body {
   padding-bottom: 1px;
 }
 
+.info {
+  text-align: center;
+}
+
 .imgtxt {
   align-items: right;
 }
@@ -59,11 +67,15 @@ body {
   margin-top: -10px;
 }
 
+.uppmarg {
+  margin-top: 9px;
+}
+
 .subray {
   text-decoration: 1px underline solid #3f4548;
 }
 
-.figcap {
+.sombras {
   text-shadow: 1px 1px 0px rgba(28, 110, 164, 0.35);
   color: #25466c;
 }
