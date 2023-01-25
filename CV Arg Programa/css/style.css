@@ -24,6 +24,15 @@ body {
   border-radius: 5px;
 }
 
+#centrhead {
+  text-align: center;
+}
+
+.headerbox {
+  padding: 45px 45px margin 20px 20px;
+  display: inline-block;
+}
+
 .line {
   border-top: 2px groove #1c6ea4;
 }
@@ -97,6 +106,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    background-color: #1c6ea41d;
+  }
+
   .cuadro {
     text-align: center;
     width: auto;
@@ -137,15 +150,8 @@ body {
 }
 
 @media only screen and (min-width: 899px) {
-  #centrhead {
-    text-align: center;
-  }
-
   .header {
-    padding: 45px 45px margin 20px 20px;
-    display: inline-block;
-    border: #1d3557 1px;
-    border-radius: 5px;
+    background-color: #1c9ba42c;
   }
 
   .cuadro {
@@ -163,4 +169,47 @@ body {
   #hidhd {
     display: none;
   }
+
+  .section {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+  }
+  
+  .right {
+    float: right;
+    width: 50%
+  } 
+
+  /* .row1 {
+    display: grid;
+    grid-template-columns: 50%;
+  }
+
+  .row2 {
+    display: grid;
+    grid-template-columns: 150%;
+  } */
+
+  /* .caja {
+position: relative
+top
+left
+right
+bottom;
+
+  }
+  .caja2 {
+
+  } */
+  /* .column {
+    flex: 50%;
+    padding: 16px;
+    height: auto;
+  } */
 }
