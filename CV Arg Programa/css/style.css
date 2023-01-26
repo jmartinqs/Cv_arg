@@ -2,12 +2,12 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  width: 100%;
+  width: 98%;
   height: auto;
   background: linear-gradient(
     to left,
     rgb(179, 179, 236) 0%,
-    rgba(177, 222, 241, 0.575) 50%,
+    rgba(177, 222, 241, 0.575) 45%,
     #a7efff9e 50%,
     #b8eef9f0 5%,
     #bae9f3 95%
@@ -34,27 +34,24 @@ body {
 }
 
 .line {
-  border-top: 2px groove #1c6ea4;
+  border-top: 3px groove #274c77;
 }
 
 .cuadro {
   border-radius: 25px;
-  border: 3px solid #274c77;
-  padding: 5px;
-  height: auto;
-  width: 40%;
+  border: 3px #274c77;
   margin-top: 10px;
-  size: 4px;
+  size: 1px;
   margin-bottom: 10px;
 }
 
 .img {
-  float: left;
+  /* float: left; */
   border-radius: 5%;
   border: black;
-  padding-left: 1px;
+  padding-left: 5px;
   padding-top: 10px;
-  padding-right: 40px;
+  padding-right: 30px;
   padding-bottom: 1px;
 }
 
@@ -111,6 +108,7 @@ body {
   }
 
   .cuadro {
+    border: 3px solid #274c77;
     text-align: center;
     width: auto;
     margin-top: 35px;
@@ -135,8 +133,8 @@ body {
     float: left;
     border-radius: 5%;
     border: black;
-    padding-left: 1px;
-    padding-top: 17px;
+    padding-left: 20px;
+    padding-top: 20px;
     padding-right: 0px;
     padding-bottom: 5px;
   }
@@ -154,62 +152,58 @@ body {
     background-color: #1c9ba42c;
   }
 
+  .littbox {
+    box-sizing: content-box;
+    width: 70%;
+    border: solid #274c77 3px;
+    border-radius: 25px;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-right: 50px;
+  }
+
   .cuadro {
     margin-top: 42px;
-    margin-left: 37px;
     margin-bottom: 60px;
-    padding-bottom: 25px;
+    margin-left: 0px;
   }
 
   .img {
     float: left;
-    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+
+  .imgtxt {
+    text-align: right;
   }
 
   #hidhd {
     display: none;
   }
 
-  .section {
+  .box {
     box-sizing: border-box;
-    width: 100%;
-    float: left;
+    width: auto;
+    float: none;
   }
 
   .left {
     float: left;
     width: 50%;
   }
-  
+
   .right {
     float: right;
-    width: 50%
-  } 
-
-  /* .row1 {
-    display: grid;
-    grid-template-columns: 50%;
+    width: 50%;
+    margin-top: 55px;
   }
 
-  .row2 {
-    display: grid;
-    grid-template-columns: 150%;
-  } */
-
-  /* .caja {
-position: relative
-top
-left
-right
-bottom;
-
+  .txtsize {
+    width: auto;
   }
-  .caja2 {
-
-  } */
-  /* .column {
-    flex: 50%;
-    padding: 16px;
-    height: auto;
-  } */
 }
