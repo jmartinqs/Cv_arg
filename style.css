@@ -88,7 +88,7 @@ body {
 }
 
 .sombras {
-  text-shadow: 1px 1px 0px rgba(28, 110, 164, 0.35);
+  text-shadow: 1px 1px 0px rgba(28, 110, 164, 0.336);
   color: #25466c;
 }
 
@@ -98,11 +98,23 @@ body {
 
 .badge {
   margin: 4px 2px;
-  background-color: #1d3557;
+  background-color: #1d3557cd;
   padding: 7px 10px;
   border-radius: 5px;
   color: #f5f5f5;
   display: inline-block;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(96, 94, 94);
+  background-color: transparent;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -147,6 +159,22 @@ body {
     padding-left: 0;
     padding-right: 15px;
     padding-top: 6px;
+  }
+
+  .badge {
+    background-color: #25466c;
+  }
+
+  .topNav:link {
+    color: rgb(228, 228, 228);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .topNav:visited {
+    color: rgb(228, 228, 228);
+    background-color: transparent;
+    text-decoration: none;
   }
 }
 
