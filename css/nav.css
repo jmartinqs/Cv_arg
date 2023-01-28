@@ -33,10 +33,6 @@
     flex-direction: column;
   }
 
-  /* .margnav {
-    margin-top: 8px;
-  } */
-
   .navbar-items {
     display: none;
   }
